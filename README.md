@@ -46,7 +46,7 @@ Can you fix this error in my test case, Ask for any files or reference you need 
 1. Use SimpleCov to generate a coverage report.
 2. Identify uncovered lines in the report:
 
-![image](https://github.com/user-attachments/assets/00db995d-9432-4a0a-9837-7e9a319f859b)
+![image](images/uncovered_test.png)
 
 `Green lines indicate covered code, red lines indicate uncovered code.`
 
@@ -55,7 +55,7 @@ Can you fix this error in my test case, Ask for any files or reference you need 
 Please write additional test cases to cover the following uncovered lines: [provide uncovered lines]
 ```
 
-![image](https://github.com/user-attachments/assets/f53018c5-ce1b-448d-b369-73c0ae078784)
+![image](images/covered_test.png)
 
 ## Conclusion
 
@@ -273,6 +273,6 @@ RSpec.describe Api::V1::CalendarsController, type: :controller do
 end
 ```
 # Coverage
-![image](https://github.com/user-attachments/assets/478d0a99-2d5c-493d-bfb9-7b3020280a44)
+![image](images/coverage_report.png)
 
-![image](https://github.com/user-attachments/assets/fda5f3f5-d64e-4c2c-87f8-bcfd1237a1df)
+![image](images/coverage_report_full.png)
